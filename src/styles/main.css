@@ -1,0 +1,18 @@
+html {
+  align-items: center;
+  background-color: darksalmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+h1 {
+  font-size: 4em;
+  color: darkgreen;
+}
+
+h2 {
+  font-size: 8em;
+  color: lime;
+}

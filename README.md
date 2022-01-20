@@ -9,3 +9,4 @@ Each stage of the workshop is a new commit in this repository, you can travel ba
 ## Contents (commits)
 
 1. Custom elements
+1. Shadow DOM

@@ -1,6 +1,6 @@
 class NewComponent extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = "<h1>New component!!</h1>";
+    this.innerHTML = `<h1>New component!!</h1>`;
   }
 }
 
