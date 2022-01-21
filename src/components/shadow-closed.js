@@ -5,10 +5,10 @@ class shadowClosed extends HTMLElement {
   }
 
   connectedCallback() {
-    this.root.innerHTML = `
-    <style>h2 { font-size: 3em; color: darkblue; }</style>
+    this.root.innerHTML = `<style>:host { display: block; padding: 1.5em; } h2 { font-size: 3em; color: darkblue; }</style>
     
-    <h2>Shadow closed, shhhh!!</h2>`;
+    <h2>Shadow closed, shhhh!!</h2>
+    <p>Styles defined online inside the component</p>`;
   }
 }
 

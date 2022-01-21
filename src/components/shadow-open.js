@@ -5,10 +5,15 @@ class ShadowOpen extends HTMLElement {
   }
 
   connectedCallback() {
-    this.shadowRoot.innerHTML = `
-    <style>h2 { font-size: 3em; color: purple; }</style>
-    
-    <h2>Shadow open</h2>`;
+    // Apply external styles to the shadow dom
+    const linkElem = document.createElement("link");
+    linkElem.setAttribute("rel", "stylesheet");
+    linkElem.setAttribute("href", "styles/shadow-open.css");
+
+    // Attach the created element to the shadow dom
+    this.shadowRoot.innerHTML = `<h2>Shadow open</h2>
+    <p>Shadow DOM element with external stylesheet</p>`;
+    this.shadowRoot.appendChild(linkElem);
   }
 }
 

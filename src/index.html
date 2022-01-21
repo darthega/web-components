@@ -7,40 +7,14 @@
     <title>New component</title>
     <link rel="stylesheet" href="./styles/main.css">
 
-    <script src="./components/template-out.js"></script>
-    <script src="./components/template-in.js"></script>
+    <script src="./components/new-component.js"></script>
+    <script src="./components/shadow-open.js"></script>
+    <script src="./components/shadow-closed.js"></script>
   </head>
   <body>
-    <template class="template-1">
-      <h2>Template 1</h2>
-      <table>
-        <tr>
-          <th>Header 1</th>
-          <th>Table header</th>
-        </tr>
-        <tr>
-          <td>Yep</td>
-          <td>you</td>
-        </tr>
-        <tr>
-          <td>can</td>
-          <td>put</td>
-        </tr>
-        <tr>
-          <td>anything</td>
-          <td>here</td>
-        </tr>
-      </table>
-
-      <p>template instantiated through the class <code>template-1</code></p>
-    </template>
-    <template id="template-2">
-      <h2>Template 2</h2>
-      <img src="http://placekitten.com/400/300" alt="A nice cat">
-      <p>template instantiated through the id <code>template-2</code></p>
-    </template>
-
-    <template-in></template-in>
-    <template-out template-selector=".template-1"></template-out>
+    <new-component></new-component>
+    <h2>regular h2</h2>
+    <shadow-open></shadow-open>
+    <shadow-closed></shadow-closed>
   </body>
 </html>

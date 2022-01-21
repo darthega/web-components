@@ -1,0 +1,8 @@
+:host {
+  font-family: sans-serif;
+  display: block;
+  background-color: lightseagreen;
+  padding: 1.5em;
+}
+
+h2 { font-size: 3em; color: purple; }

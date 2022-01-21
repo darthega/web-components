@@ -12,3 +12,4 @@ Each stage of the workshop is a new commit in this repository, you can travel ba
 1. Shadow DOM
 1. Lifecycle methods / Attributes-Properties
 1. HTML templates
+1. Styling
